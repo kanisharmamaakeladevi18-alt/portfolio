@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Netflix Landing Page</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:black;
+color:white;
+}
+
+.header{
+height:100vh;
+background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+url("https://assets.nflxext.com/ffe/siteui/vlv3/9c5b6e3d-8c03-4b7d-8c6a-7c6b3a9f2c9c/1b70e395-4e6c-4b9f-a67d-9d1fba163f92/IN-en-20231030-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+background-size:cover;
+background-position:center;
+padding:20px 8%;
+position:relative;
+}
+
+nav{
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+width:150px;
+}
+
+.signin{
+background:#e50914;
+color:white;
+padding:8px 18px;
+border:none;
+border-radius:4px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.hero{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+text-align:center;
+max-width:650px;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:bold;
+}
+
+.hero h3{
+margin:20px 0;
+font-weight:400;
+}
+
+.email-signup{
+display:flex;
+margin-top:20px;
+}
+
+.email-signup input{
+flex:1;
+padding:15px;
+border:none;
+outline:none;
+}
+
+.email-signup button{
+background:#e50914;
+border:none;
+color:white;
+padding:15px 30px;
+font-size:16px;
+cursor:pointer;
+}
+
+.features{
+padding:50px 12%;
+}
+
+.row{
+display:flex;
+align-items:center;
+flex-wrap:wrap;
+padding:50px 0;
+border-top:8px solid #333;
+}
+
+.text{
+flex-basis:50%;
+}
+
+.img{
+flex-basis:50%;
+}
+
+.img img{
+width:100%;
+}
+
+.text h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.footer{
+padding:40px 15%;
+border-top:8px solid #333;
+color:#777;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<nav>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" class="logo">
+<button class="signin">Sign In</button>
+</nav>
+
+<div class="hero">
+<h1>Unlimited movies, TV shows and more</h1>
+<h3>Watch anywhere. Cancel anytime.</h3>
+<p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+<div class="email-signup">
+<input type="email" placeholder="Email address">
+<button>Get Started ></button>
+</div>
+</div>
+
+</div>
+
+
+<div class="features">
+
+<div class="row">
+<div class="text">
+<h2>Enjoy on your TV</h2>
+<p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV and more.</p>
+</div>
+<div class="img">
+<img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+</div>
+</div>
+
+<div class="row">
+<div class="img">
+<img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+</div>
+<div class="text">
+<h2>Download your shows to watch offline</h2>
+<p>Save your favourites easily and always have something to watch.</p>
+</div>
+</div>
+
+<div class="row">
+<div class="text">
+<h2>Create profiles for kids</h2>
+<p>Send kids on adventures with their favourite characters.</p>
+</div>
+<div class="img">
+<img src="https://occ-0-2705-64.1.nflxso.net/dnm/api/v6/E1vSKjzvUQkLzz/p.png">
+</div>
+</div>
+
+</div>
+
+
+<div class="footer">
+<p>Questions? Call 000-800-040-1843</p>
+</div>
+
+</body>
+</html>
